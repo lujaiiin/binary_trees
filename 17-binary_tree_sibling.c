@@ -1,7 +1,7 @@
 #include "binary_trees.h"
 
 /**
- * binary_tree_sibling
+ * binary_tree_sibling - fun
  * @node: val
  * Return: always
  */
