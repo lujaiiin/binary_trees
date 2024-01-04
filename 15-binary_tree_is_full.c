@@ -1,7 +1,7 @@
 #include "binary_trees.h"
 
 /**
- * is_full_recursive - func
+ * recursive - func
  * @tree: val
  * Return: always
  */
@@ -14,8 +14,9 @@ int recursive(const binary_tree_t *tree)
 		    (!tree->left && tree->right) ||
 		   recursive(tree->left) == 0 ||
 		   recursive(tree->right) == 0)
-			
+		{
 			return (0);
+		}
 	}
 	return (1);
 }
